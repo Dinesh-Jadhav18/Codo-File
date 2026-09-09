@@ -20,8 +20,8 @@ function Java() {
     };
  
     try{
-      // const {data} = await axios.post("http://localhost:5000/rundart",payload)
-      const response = await fetch("http://localhost:5000/rundart",{
+      // const {data} = await axios.post("https://codo-file-backend-76cx.onrender.com/rundart",payload)
+      const response = await fetch("https://codo-file-backend-76cx.onrender.com/rundart",{
         method:'POST',
         headers:{
           "Content-Type":"application/json"
